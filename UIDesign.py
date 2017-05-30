@@ -68,7 +68,7 @@ class MyApp(QMainWindow, Ui_MainWindow):
                                             tmpData["위도"], tmpData["경도"], tmpData["현재 상태"], tmpData["시간"])
 
         USER = 'sjhur1991'
-        PASS = 'skhur3319'
+        PASS = ''
         TO = 'footman5@naver.com'
         SUBJECT = 'EV 충전소 위치 안내'
         ip = subprocess.check_output("hostname-I", shell=True)
